@@ -15,8 +15,8 @@ import com.sample.mvvmarchiteturetest.databinding.ProductRowBinding
 class ProductAdapter ( var list:List<ProductDetails>): RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
 
     fun updateList(list:List<ProductDetails>){
-        this.list=list
-        notifyDataSetChanged()
+//         this.list=list
+//         notifyDataSetChanged()
     }
     override fun getItemId(position: Int): Long {
         return position.toLong()
