@@ -4,4 +4,7 @@ class test {
     fun test(){
 
     }
+    fun test2(){
+
+    }
 }
