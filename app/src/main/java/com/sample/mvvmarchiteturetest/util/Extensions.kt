@@ -10,4 +10,5 @@ fun setImage(imageView: ShapeableImageView, image: String) {
     Glide.with(imageView.context)
         .load(image)
         .into(imageView)
+
 }
